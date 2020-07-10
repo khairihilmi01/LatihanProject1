@@ -6,15 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="Responsive.css">
-
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>Website</title>
 </head>
 
 <body>
   <!-- awal header -->
-  <section>
+  <div class="container-header">
     <header>
-      <div class="Logo">LOGO</div>
+      <div class="Logo">
+        <img src="img/mylogo1.png" alt=""></div>
       <nav>
         <ul>
           <li><a href="#">Home</a></li>
@@ -26,9 +27,45 @@
       </nav>
       <div class="Login">Contact Me</div>
     </header>
-  </section>
-
+  </div>
   <!-- akhir header -->
+  <div class="container-banner">
+    <div class="text-banner">
+      <h1>Hello, <span>I am</span><br>
+        Khairi Hilmi Saputra</h1>
+      <p>Love design and Science</p>
+      <div class="btn CV">CHECK MY CV</div>
+    </div>
+    <img src="img/Flatdesign.svg" alt="">
+  </div>
+  <!-- awal banner -->
+
+  <!-- awal About -->
+
+  <div class="About">
+    <div class="img-about" data-aos="fade-right">
+      <div class="profil">
+        <img src="img/Gambar_profil.png" alt="">
+      </div>
+    </div>
+    <div class="text-about" data-aos="fade-left">
+      <h1>About Me</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, sunt? Lorem, ipsum dolor sit amet consectetur
+        adipisicing elit. Eligendi id voluptate nihil impedit quae? Quo odio necessitatibus repudiandae distinctio
+        possimus. <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla maxime quidem, nobis harum qui eum.
+      </p>
+    </div>
+  </div>1
+  <!-- akhir About -->
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000
+    });
+  </script>
+
 </body>
 
 </html>
